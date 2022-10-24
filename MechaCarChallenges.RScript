@@ -1,0 +1,5 @@
+#--- Read CSV file
+library(dplyr)
+demo_table <- read.csv(file='MechaCar_mpg.CSV',check.names=F,stringsAsFactors = F)
+
+
